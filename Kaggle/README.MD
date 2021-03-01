@@ -20,5 +20,6 @@ Kaggle
 連続12時間使用可能！（実質無限！…ではない…？）
 
 ``` shell:
+# 起動時間を確認する。
 cat /proc/uptime | awk '{print $1 /60 /60 /24 "days (" $1 "sec)"}'
 ```
